@@ -4,9 +4,9 @@ Secure Programming Challenge Against SSTI
 
 ## Scenario
 In this challenge, participants are tasked with addressing a Server-Side Template Injection (SSTI) vulnerability within a Python web application built using Flask. The current code allows users to submit a string via a URL parameter, which is then rendered within an HTML template and returned as the response. However, the lack of input validation and unsafe handling of the input exposes the application to potential exploitation, enabling users to inject and execute arbitrary code on the server.
-\n\n
+  
 Participants are required to identify the location of the vulnerability and fix the issue(s) to fortify the application's defenses against SSTI attacks. Successful resolution of the vulnerability demands that the application maintains its functionality while effectively neutralizing the identified security risk.
-\n\n
+  
 Submissions for this challenge must comprise solely of the amended code, confined within the **main.py** file.
 
 ## Requirements
